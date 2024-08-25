@@ -1,12 +1,16 @@
-console.log("Olá mundo!")
-console.log("Hello")
+let nome = 'Roberto'
 
-var nome = "Roberto"
+let numero = 123
 
-const emailPessoa = "roberto@gmail.com"
+let usuarioVerificado = false
 
-let telefonePessoa = "34988935149"
+if(usuarioVerificado){
+    console.log("usuário verificado")
+}else{
+    console.log("usuário não é verificado")
+}
 
-let idade = prompt("Digite sua idade:")
+let pessoa = null
 
-console.log(idade)
+let telefone = undefined
+
