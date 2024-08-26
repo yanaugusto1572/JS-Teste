@@ -19,3 +19,20 @@ let b = 5
 
 console.log(a>=b)
 
+let primeiroValor = 6
+let segundoValor = 3
+
+console.log(primeiroValor + segundoValor)
+console.log(primeiroValor - segundoValor)
+console.log(primeiroValor / segundoValor)
+console.log(primeiroValor * segundoValor)
+console.log(primeiroValor % segundoValor)
+
+// for(inicializador; condicao; incremento){
+//     declaracao
+// }
+
+for(let i = 0; i < 5; i++){
+    console.log(i)
+}
+
