@@ -14,3 +14,8 @@ let pessoa = null
 
 let telefone = undefined
 
+let a = 2
+let b = 5
+
+console.log(a>=b)
+
