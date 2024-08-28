@@ -36,3 +36,22 @@ for(let i = 0; i < 5; i++){
     console.log(i)
 }
 
+// while(condicao){
+//     <bloco de execucao>
+// }
+
+let aa = 10
+let bb = 15
+
+while(aa < bb){
+    console.log('incrementando a variável a ' + aa)
+    aa++;
+}
+
+var i = 1
+
+do {
+    console.log('entrou' + i)
+    i++
+}while(i<=5)
+
