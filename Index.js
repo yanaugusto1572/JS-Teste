@@ -55,3 +55,53 @@ do {
     i++
 }while(i<=5)
 
+let nomeFilme = 'Capitão América'
+
+if(nomeFilme === 'Vingadores'){
+    console.log('É o filme dos Vingadores')
+}else if(nomeFilme === 'Batman vs Superman'){
+    console.log('É o  filme do Batman vs Superman')
+}else if(nomeFilme === 'Capitão América'){
+    console.log('É o filme do Capitão América')
+}else{
+    console.log('É outro filme')
+}
+
+false ? console.log('condição verdadeira') : console.log('condição falsa')
+
+nomeFilme === 'Vingadores' ? console.log('É o filme dos Vingadores') : console.log('É outro filme')
+
+switch(nomeFilme){
+    case'Vingadores':
+        console.log('É o filme dos Vingadores')
+        break
+    case 'Barman vc Superman':
+        console.log('É o filme do Batman vs Superman')
+        break
+    case 'Senhor dos Anéis':
+        console.log('É o filme do Senhor dos Anéis')
+        break
+    default:
+        console.log('É outro filme')
+        break
+}
+
+
+let avaliacao = 5
+
+switch(avaliacao){
+    case 1:
+    case 2:
+        console.log('Filme ruim')
+        break
+    case 3:
+    case 4:
+        console.log('Filme mediano')
+        break
+    case 5:
+        console.log('Filme excelente')
+        break
+    default:
+        console.log('Nota inválida')
+        break    
+}
