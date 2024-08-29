@@ -105,3 +105,32 @@ switch(avaliacao){
         console.log('Nota inválida')
         break    
 }
+
+// function primerioTeste(){
+//     alert('Olá mundo!')
+// }
+
+// primerioTeste()
+
+
+function soma(numero1, numero2){
+    return numero1 + numero2
+}
+
+let resultadoDaSoma = soma(10, 10)
+console.log(resultadoDaSoma)
+
+resultadoDaSoma = soma(resultadoDaSoma, 7)
+console.log(resultadoDaSoma)
+
+
+function incentivarQuester(nomeQuester = 'Yan'){
+    alert('Muito bem ' + nomeQuester + ', você chegou ao JS, continue assim!')
+}
+
+incentivarQuester()
+
+let nn = -5
+let mm = -70
+
+console.log(nn + mm)
