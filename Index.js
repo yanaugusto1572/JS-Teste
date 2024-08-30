@@ -135,6 +135,21 @@
 
 // console.log(nn + mm)
 
-const nomeDoUsuario = prompt('Digite seu nome: ')
 
-alert('Seja bem vindo(a), ' + nomeDoUsuario + '!')
+
+
+// const nomeDoUsuario = prompt('Digite seu nome: ')
+
+// alert('Seja bem vindo(a), ' + nomeDoUsuario + '!')
+
+
+
+let boletoPago = false
+
+    if(boletoPago === 'true'){
+        console.log('O boleto está pago')
+    }else{
+        console.log('O boleto não está pago')
+    }
+
+    
