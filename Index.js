@@ -144,12 +144,20 @@
 
 
 
-let boletoPago = false
+// let boletoPago = false
 
-if(boletoPago === true){
-    console.log('O boleto está pago')
+// if(boletoPago === true){
+//     console.log('O boleto está pago')
+// }else{
+//     console.log('O boleto não está pago')
+// }
+
+
+const respostaUser = confirm('Seja bem vindo(a)aventureiro(a)! Gostaria de pagar R$ 50,00 para passar a noite na nossa hospedagem?')
+    
+if(respostaUser == true){
+    console.log('Ótimo! Nós temos as melhores camas de toda a região!')
 }else{
-    console.log('O boleto não está pago')
+    console.log('Que pena! Você parecia ser uma pessoa mais legal')
 }
 
-    
