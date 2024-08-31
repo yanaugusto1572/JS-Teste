@@ -162,7 +162,10 @@
 // }
 
 
-for(let p = 0; p <= 10; p++){
-    console.log('O número atual é o ' + p)
-}
+// for(let p = 0; p <= 10; p++){
+//     console.log('O número atual é o ' + p)
+// }
 
+for(let u = 0; u <= 10; u++){
+    console.log('O dobro do número ' + u + ' é ' + u * 2)
+}
