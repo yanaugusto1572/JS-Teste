@@ -153,11 +153,16 @@
 // }
 
 
-const respostaUser = confirm('Seja bem vindo(a)aventureiro(a)! Gostaria de pagar R$ 50,00 para passar a noite na nossa hospedagem?')
+// const respostaUser = confirm('Seja bem vindo(a)aventureiro(a)! Gostaria de pagar R$ 50,00 para passar a noite na nossa hospedagem?')
     
-if(respostaUser == true){
-    console.log('Ótimo! Nós temos as melhores camas de toda a região!')
-}else{
-    console.log('Que pena! Você parecia ser uma pessoa mais legal')
+// if(respostaUser == true){
+//     console.log('Ótimo! Nós temos as melhores camas de toda a região!')
+// }else{
+//     console.log('Que pena! Você parecia ser uma pessoa mais legal')
+// }
+
+
+for(let p = 0; p <= 10; p++){
+    console.log('O número atual é o ' + p)
 }
 
