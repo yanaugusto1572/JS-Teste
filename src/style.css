@@ -1,0 +1,56 @@
+.cabeçalho1 {
+    background-color: yellow;
+    padding: 10px 5px;
+    border-bottom: 5px solid;
+    color: #000;
+}
+
+.logo1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.cabeçalho1 nav {
+    float:right ;
+} 
+
+.cabeçalho1 nav li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+    padding-right: 50px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+p:first-child{
+    color: red;
+    background-color: #000;
+}
+
+.tabela{  
+    margin: 10px;
+    border: solid;
+    background-color: gray;
+    font-size: 25px;
+}
+
+.tabela th, td{
+    border: solid;
+}
+
+.tabela th{
+    padding: 10px;
+    background-color: red;
+}
+
+.tabela td{
+    padding: 5px;
+    background-color: blue;
+
+}
