@@ -166,6 +166,16 @@
 //     console.log('O número atual é o ' + p)
 // }
 
-for(let u = 0; u <= 10; u++){
-    console.log('O dobro do número ' + u + ' é ' + u * 2)
+// for(let u = 0; u <= 10; u++){
+//     console.log('O dobro do número ' + u + ' é ' + u * 2)
+// }
+
+
+function falar(){
+    var mensagem = 'Olá Mundo!'
+    console.log(mensagem)
 }
+
+falar()
+console.log(mensagem)
+
