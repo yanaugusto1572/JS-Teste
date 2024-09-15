@@ -171,11 +171,16 @@
 // }
 
 
-function falar(){
-    var mensagem = 'Olá Mundo!'
-    console.log(mensagem)
-}
+// function falar(){
+//     var mensagem = 'Olá Mundo!'
+//     console.log(mensagem)
+// }
 
-falar()
-console.log(mensagem)
+// falar()
+// console.log(mensagem)
+
+
+console.log(olhando)
+
+var olhando = 'Olhar o mundo'
 
